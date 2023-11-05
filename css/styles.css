@@ -264,8 +264,8 @@ body {
   /* Navbar styles for mobile */
   .navbar {
     flex-direction: column;
-    align-items: center;
-    padding: 20px 0;
+    align-items: flex-start; /* Align the nav to the left */
+    padding: 20px;
   }
 
   .menu {
@@ -288,6 +288,11 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+  }
+
+  .hero img {
+    width: auto; /* Allow the image to adjust its width */
+    max-height: 250px; /* Limit the maximum height of the image */
   }
 
   /* Repositioning and aligning sections underneath each other */
