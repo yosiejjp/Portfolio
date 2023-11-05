@@ -269,8 +269,10 @@ body {
   }
 
   .navbar {
-    flex-direction: column; /* Stack navigation items vertically */
-    padding: 10px; /* Adjust padding for mobile view */
+    padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
   }
 
   .logo {
@@ -287,5 +289,4 @@ body {
     text-align: center; /* Center-align menu items */
   }
 
-  /* Adjustments for other sections, elements, and layout for better mobile display */
 }
