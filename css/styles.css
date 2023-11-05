@@ -260,78 +260,61 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+
 @media only screen and (max-width: 600px) {
-  /* Navbar styles for mobile */
+  /* Adjustments for smaller screens */
+
+  /* For the navbar - adjust as needed */
   .navbar {
     flex-direction: column;
-    align-items: flex-start; /* Align the nav to the left */
-    padding: 20px;
+    align-items: center;
   }
 
   .menu {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     margin-top: 20px;
-  }
-
-  .menu li {
-    margin: 0;
-  }
-
-  .name {
-    margin-left: 0;
-  }
-
-  .actions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-
-  .hero img {
-    width: auto; /* Allow the image to adjust its width */
-    max-height: 250px; /* Limit the maximum height of the image */
-  }
-
-  /* Repositioning and aligning sections underneath each other */
-  .hero-content {
-    text-align: center;
-    position: static;
-    transform: none;
-  }
-
-  .hero-content p {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .skills-section,
-  .projects-section,
-  .site-footer {
-    padding: 20px;
-  }
-
-  .skills-container,
-  .project-container,
-  .footer-links {
-    display: flex;
-    flex-direction: column;
     gap: 20px;
   }
 
-  .skill-box,
+  .actions {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .hero-text {
+    font-size: 28px;
+  }
+
+  /* Adjustments for skills section - stack them vertically */
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-box {
+    width: 80%;
+  }
+
+  /* Adjustments for projects section - stack them vertically */
   .project-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-image {
+    margin-right: 0;
     width: 100%;
   }
 
-  .project-item .project-image {
-    margin-right: 0;
-  }
-
-  .footer-top,
-  .footer-bottom {
-    margin-bottom: 20px;
+  .project-details {
+    margin-top: 20px;
   }
 }
