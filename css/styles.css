@@ -308,6 +308,7 @@ body {
 /* Media Query for screens with a maximum width of 600 pixels */
 @media only screen and (max-width: 600px) {
   .navbar {
+    font-size: 14px;
     padding: 10px 20px; /* Adjusted padding for the navbar */
   }
 
@@ -336,29 +337,32 @@ body {
   }
 }
 
-  .projects-section h2 {
-    margin-top: 20px; /* Space between heading and projects */
-  }
+.hero img {
+  max-width: 100%;
+  height: auto;
+  width: 100%; /* Adjusted image width for the hero section */
+}
 
-  .project-item {
-    width: 90%; /* Full width for project items */
-    text-align: center; /* Center project items */
-    margin: 0 auto; /* Center project items */
-  }
+.projects-section {
+  text-align: center; /* Center the project section */
+}
 
-  .project-item .image-section img {
-    width: 100%; /* Full width for project images */
-    order: 0; /* Display image before details */
-    margin-bottom: 10px; /* Space between image and details */
-  }
+.project-item {
+  width: 100%; /* Full width for project items */
+  margin: 20px 0; /* Margin to separate project items */
+}
 
-  .project-details h3 {
-    margin-bottom: 10px; /* Space between details */
-  }
+.project-item .image-section img {
+  width: 100%; /* Adjusted image width for the project items */
+  order: 1;
+  margin-bottom: 10px; /* Spacing between image and details */
+}
 
-  .project-details p {
-    margin-bottom: 10px; /* Space between details */
-  }
+.project-details {
+  width: 100%;
+  text-align: center; /* Center the project details */
+}
+}
 
   .project-buttons {
     display: flex;
