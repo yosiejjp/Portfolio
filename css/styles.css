@@ -300,13 +300,9 @@ body {
 .footer-bottom {
   margin-top: 20px;
 }
-/* Your existing CSS */
 
-/* Media Query for screens with a maximum width of 600 pixels */
-/* Your existing CSS */
 
-/* Media Query for screens with a maximum width of 600 pixels */
-@media only screen and (max-width: 428px){
+@media only screen and (max-width: 428px) {}
   .navbar {
     font-size: 14px;
     padding: 10px 20px; /* Adjusted padding for the navbar */
@@ -347,7 +343,7 @@ body {
 }
 
 .project-item {
-  width: 90%; /* Full width for project items */
+  width: 70%; /* Full width for project items */
   margin: 20px 0; /* Margin to separate project items */
 }
 
@@ -371,7 +367,7 @@ body {
 
   .blue-button,
   .orange-button {
-    width: 70%; /* Full width for buttons */
+    width: 50%; /* Full width for buttons */
     margin: 10px 0; /* Space between buttons */
   }
 
@@ -380,7 +376,7 @@ body {
   }
 
   .logo-section img {
-    width: 90px; /* Larger logo size for mobile footer */
+    width: 60px; /* Larger logo size for mobile footer */
   }
 
   .connect-text {
@@ -389,15 +385,20 @@ body {
   }
 
   .icon-links {
-    flex-direction: column; /* Align icons and texts in a column */
+    display: flex; /* Set icons and text to display side by side */
+    justify-content: space-around; /* Adjust spacing between icons and text */
     align-items: center; /* Center items */
-    margin: 20px 0; /* Adjust margin between items */
+    margin: 20px 0;
   }
 
   .icon-links a {
-    margin: 10px 0; /* Adjust margin for individual items */
-    text-decoration: none;
-    color: black;
+    .icon-links a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
   }
 
   .icon-links a img {
@@ -407,8 +408,8 @@ body {
   }
 
   .icon-links p {
-    margin: 5px 0; /* Adjust margin for text */
-    font-size: 14px; /* Adjust text size */
+    margin: 5px 0; 
+    font-size: 14px;
   }
 
   .footer-bottom {
