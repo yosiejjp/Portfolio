@@ -306,7 +306,7 @@ body {
 /* Your existing CSS */
 
 /* Media Query for screens with a maximum width of 600 pixels */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 428px) {
   .navbar {
     font-size: 14px;
     padding: 10px 20px; /* Adjusted padding for the navbar */
@@ -335,7 +335,6 @@ body {
   .skill-box img {
     width: 80px; /* Adjusted image size for mobile */
   }
-}
 
 .hero img {
   max-width: 100%;
@@ -362,7 +361,7 @@ body {
   width: 100%;
   text-align: center; /* Center the project details */
 }
-}
+
 
   .project-buttons {
     display: flex;
@@ -415,4 +414,4 @@ body {
   .footer-bottom {
     margin-top: 20px; /* Adjust margin */
   }
-}
+
