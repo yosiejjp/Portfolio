@@ -302,44 +302,76 @@ body {
 }
 
 
-@media only screen and (max-width: 428px) {
-  /* Other styles */
+@media only screen and (max-width: 428px) {}
+  .navbar {
+    font-size: 14px;
+    padding: 10px 20px; /* Adjusted padding for the navbar */
+  }
+
+  .logo img {
+    width: 30px; /* Reduced logo size for mobile */
+    margin-right: 0; /* Removed margin for the logo */
+  }
+
+  .name {
+    font-size: 1em; /* Adjusted font size for the name */
+    margin-left: 5px; /* Added a small margin to the name */
+  }
 
   .skills-container {
     display: flex;
     flex-direction: column; /* Stacking skill boxes vertically */
   }
 
-  .skill-box {
-    width: 90%; /* Full width for skill boxes */
-    margin: 20px auto; /* Center and add space between boxes */
-    background: none; /* Fix for the white background behind the box */
+  .skills-section {
+    text-align: center; /* Center text */
   }
 
-  .skill-box img {
-    width: 80px; /* Adjusted image size for mobile */
+  .skill-box {
+    background: none; /* Remove white background behind UX Research */
+  }
+
+  .skill-box h3,
+  .skill-box p {
+    color: white; /* Change text color for better contrast */
   }
 
   .projects-section {
-    text-align: center; /* Center the project section */
-  }
+    text-align: center; /* Center the projects section */
+  }* Adjusted image size for mobile */
+  
 
-  .project-item {
-    width: 90%; /* Full width for project items */
-    margin: 20px auto; /* Margin to separate project items */
-    display: flex;
+.hero img {
+  max-width: 100%;
+  height: auto;
+  width: 100%; /* Adjusted image width for the hero section */
+}
+
+.projects-section {
+  text-align: center; /* Center the project section */
+}
+
+.project-item {
+  display: flex;
     flex-direction: column;
-  }
+    text-align: center;
+}
 
-  .project-item .image-section img {
-    width: 100%; /* Adjusted image width for the project items */
-    order: 1;
-    margin-bottom: 10px; /* Spacing between image and details */
-  }
+.project-container {
+  align-items: center;
+}
 
-  .project-details {
-    text-align: center; /* Center the project details */
-  }
+.project-item .image-section img {
+  width: 100%; /* Adjusted image width for the project items */
+  order: 1;
+  margin-bottom: 10px; /* Spacing between image and details */
+}
+
+.project-details {
+  width: 90%;
+  text-align: center; /* Center the project details */
+}
+
 
   .project-buttons {
     display: flex;
@@ -349,11 +381,10 @@ body {
 
   .blue-button,
   .orange-button {
-    width: 100%; /* Full width for buttons */
+    width: 50%; /* Full width for buttons */
     margin: 10px 0; /* Space between buttons */
   }
 
-  /* Site Footer styles */
   .site-footer {
     padding: 20px 0; /* Adjust footer padding */
   }
@@ -371,16 +402,17 @@ body {
     display: flex; /* Set icons and text to display side by side */
     justify-content: space-around; /* Adjust spacing between icons and text */
     align-items: center; /* Center items */
-    margin: 20px 0; /* Adjust margin between items */
+    margin: 20px 0;
   }
 
   .icon-links a {
-    text-decoration: none;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    .icon-links a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
   }
 
   .icon-links a img {
@@ -390,8 +422,8 @@ body {
   }
 
   .icon-links p {
-    margin: 5px 0; /* Adjust margin for text */
-    font-size: 14px; /* Adjust text size */
+    margin: 5px 0; 
+    font-size: 14px;
   }
 
   .footer-bottom {
