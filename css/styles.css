@@ -306,7 +306,7 @@ body {
 /* Your existing CSS */
 
 /* Media Query for screens with a maximum width of 600 pixels */
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 428px) {}
   .navbar {
     font-size: 14px;
     padding: 10px 20px; /* Adjusted padding for the navbar */
@@ -341,43 +341,46 @@ body {
   height: auto;
   width: 100%; /* Adjusted image width for the hero section */
 }
-
-.projects-section {
-  text-align: center; /* Center the projects section */
-}
-
 .project-container {
-  align-items: center;
-}
-
-.project-item {
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: column; /* Stacking project boxes vertically */
 }
 
-.project-item .image-section img {
-  width: 100%; /* Adjust image width for the project items */
+.project-box {
+  width: 90%; /* Full width for project boxes */
+  margin: 20px auto; /* Center and add space between project boxes */
+  padding: 20px;
+  border: 1px solid #ccc; /* Add borders */
+  border-radius: 8px; /* Round box corners */
+}
+
+.project-box img {
+  width: 100%; /* Adjusted image width for mobile */
   order: 1;
   margin-bottom: 10px; /* Spacing between image and details */
 }
 
-.project-details {
-  width: 90%;
-  text-align: center; /* Center the project details */
+.project-box h3 {
+  font-size: 18px; /* Adjust heading font size */
+  margin: 15px 0;
 }
 
-  .project-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.project-box p {
+  font-size: 14px; /* Adjust text font size */
+  color: #333; /* Change text color */
+  margin-bottom: 10px;
+}
 
-  .blue-button,
-  .orange-button {
-    width: 50%; /* Full width for buttons */
-    margin: 10px 0; /* Space between buttons */
-  }
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue-button, .orange-button {
+  width: 50%; /* Full width for buttons */
+  margin: 10px 0; /* Space between buttons */
+}
 
   .site-footer {
     padding: 20px 0; /* Adjust footer padding */
@@ -423,4 +426,4 @@ body {
   .footer-bottom {
     margin-top: 20px; /* Adjust margin */
   }
-}
+  }
