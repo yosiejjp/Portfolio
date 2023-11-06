@@ -323,18 +323,29 @@ body {
     flex-direction: column; /* Stacking skill boxes vertically */
   }
 
-  .skills-section {
-    text-align: center; /* Center text */
-  }
-
   .skill-box {
-    background: none; /* Remove white background behind UX Research */
+    width: 90%; /* Full width for skill boxes */
+    margin: 20px auto; /* Center and add space between boxes */
+    padding: 20px;
+    border: 1px solid #ccc; /* Add borders */
+    border-radius: 8px; /* Round box corners */
   }
 
-  .skill-box h3,
-  .skill-box p {
-    color: white; /* Change text color for better contrast */
+  .skill-box img {
+    width: 80px; /* Adjusted image size for mobile */
   }
+
+  .skill-box h3 {
+    font-size: 18px; /* Adjust heading font size */
+    margin: 15px 0;
+  }
+
+  .skill-box p {
+    font-size: 14px; /* Adjust text font size */
+    color: #333; /* Change text color */
+    margin-bottom: 10px;
+  }
+
 
   .projects-section {
     text-align: center; /* Center the projects section */
