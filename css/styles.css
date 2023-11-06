@@ -281,34 +281,24 @@ body {
   .navbar {
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-  }
-
-  .logo {
-    margin-bottom: 10px;
   }
 
   .menu {
+    flex-direction: column;
     text-align: center;
+    margin-top: 20px;
   }
 
   .menu li {
     margin: 10px 0;
   }
 
-  .menu a {
-    font-size: 14px;
-  }
-
   .actions {
-    margin-top: 10px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-
-  .actions a {
-    margin: 0 10px;
-    font-size: 14px;
-  }
-}
 
   .hero-content {
     top: 50%;
@@ -343,3 +333,4 @@ body {
   .project-details {
     margin-top: 20px;
   }
+}
