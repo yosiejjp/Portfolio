@@ -320,32 +320,35 @@ body {
 
   .skills-container {
     display: flex;
-    flex-direction: column; /* Stacking skill boxes vertically */
+    flex-direction: column; /* Stack the skill boxes vertically */
   }
 
   .skill-box {
     width: 90%; /* Full width for skill boxes */
-    margin: 20px auto; /* Center and add space between boxes */
-    padding: 20px;
-    border: 1px solid #ccc; /* Add borders */
-    border-radius: 8px; /* Round box corners */
+    margin: 20px auto; /* Center and add space between skill boxes */
   }
 
-  .skill-box img {
-    width: 80px; /* Adjusted image size for mobile */
+  .image-section {
+    padding: 10px;
+    background: white; /* White background for the skill sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
   }
 
-  .skill-box h3 {
-    font-size: 18px; /* Adjust heading font size */
-    margin: 15px 0;
+  .image-section img {
+    width: 100%; /* Adjust image width */
   }
 
-  .skill-box p {
+  .image-section h3 {
+    font-size: 18px; /* Adjust title font size */
+    margin: 10px 0;
+  }
+
+  .image-section p {
     font-size: 14px; /* Adjust text font size */
     color: #333; /* Change text color */
     margin-bottom: 10px;
   }
-
 
   .projects-section {
     text-align: center; /* Center the projects section */
