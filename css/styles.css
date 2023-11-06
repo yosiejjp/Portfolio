@@ -308,52 +308,33 @@ body {
 /* Media Query for screens with a maximum width of 600 pixels */
 @media only screen and (max-width: 600px) {
   .navbar {
-    flex-direction: column; /* Stack items vertically for mobile */
-    padding: 10px 0; /* Adjust padding for mobile */
-  }
-
-  .logo {
-    margin-bottom: 10px; /* Provide space between logo and other items */
-    text-align: center; /* Center the logo for mobile */
+    padding: 10px 20px; /* Adjusted padding for the navbar */
   }
 
   .logo img {
-    width: 70px; /* Larger logo size for mobile */
-    margin-right: 0; /* Remove margin for logo */
+    width: 30px; /* Reduced logo size for mobile */
+    margin-right: 0; /* Removed margin for the logo */
   }
 
   .name {
-    font-size: 1.2em; /* Adjust font size */
-  }
-
-  .menu li {
-    margin: 0;
-    margin-bottom: 10px; /* Space between menu items */
-    text-align: center; /* Center menu items */
-  }
-
-  .actions {
-    margin-top: 20px; /* Margin to separate actions from menu */
-    text-align: center; /* Center action items */
-  }
-
-  .actions a {
-    margin: 10px 0; /* Space between action items */
+    font-size: 1em; /* Adjusted font size for the name */
+    margin-left: 5px; /* Added a small margin to the name */
   }
 
   .skills-container {
-    flex-direction: column; /* Stack skill boxes for mobile */
-    align-items: center; /* Center skill boxes */
+    display: flex;
+    flex-direction: column; /* Stacking skill boxes vertically */
   }
 
   .skill-box {
     width: 90%; /* Full width for skill boxes */
-    margin: 20px 0; /* Spacing between skill boxes */
+    margin: 20px auto; /* Center and add space between boxes */
   }
 
   .skill-box img {
-    width: 80px; /* Adjust image size */
+    width: 80px; /* Adjusted image size for mobile */
   }
+}
 
   .projects-section h2 {
     margin-top: 20px; /* Space between heading and projects */
