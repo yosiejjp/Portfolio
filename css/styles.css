@@ -300,9 +300,13 @@ body {
 .footer-bottom {
   margin-top: 20px;
 }
+/* Your existing CSS */
 
+/* Media Query for screens with a maximum width of 600 pixels */
+/* Your existing CSS */
 
-@media only screen and (max-width: 428px) {}
+/* Media Query for screens with a maximum width of 600 pixels */
+@media only screen and (max-width: 428px) {
   .navbar {
     font-size: 14px;
     padding: 10px 20px; /* Adjusted padding for the navbar */
@@ -320,40 +324,17 @@ body {
 
   .skills-container {
     display: flex;
-    flex-direction: column; /* Stack the skill boxes vertically */
+    flex-direction: column; /* Stacking skill boxes vertically */
   }
 
   .skill-box {
     width: 90%; /* Full width for skill boxes */
-    margin: 20px auto; /* Center and add space between skill boxes */
+    margin: 20px auto; /* Center and add space between boxes */
   }
 
-  .image-section {
-    padding: 10px;
-    background: white; /* White background for the skill sections */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+  .skill-box img {
+    width: 80px; /* Adjusted image size for mobile */
   }
-
-  .image-section img {
-    width: 100%; /* Adjust image width */
-  }
-
-  .image-section h3 {
-    font-size: 18px; /* Adjust title font size */
-    margin: 10px 0;
-  }
-
-  .image-section p {
-    font-size: 14px; /* Adjust text font size */
-    color: #333; /* Change text color */
-    margin-bottom: 10px;
-  }
-
-  .projects-section {
-    text-align: center; /* Center the projects section */
-  }* Adjusted image size for mobile */
-  
 
 .hero img {
   max-width: 100%;
@@ -366,13 +347,8 @@ body {
 }
 
 .project-item {
-  display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.project-container {
-  align-items: center;
+  width: 70%; /* Full width for project items */
+  margin: 20px 0; /* Margin to separate project items */
 }
 
 .project-item .image-section img {
@@ -436,8 +412,8 @@ body {
   }
 
   .icon-links p {
-    margin: 5px 0; 
-    font-size: 14px;
+    margin: 5px 0; /* Adjust margin for text */
+    font-size: 14px; /* Adjust text size */
   }
 
   .footer-bottom {
