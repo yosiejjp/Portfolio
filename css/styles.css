@@ -303,30 +303,105 @@ body {
 /* Your existing CSS */
 
 /* Media Query for screens with a maximum width of 600 pixels */
+/* Your existing CSS */
+
+/* Media Query for screens with a maximum width of 600 pixels */
 @media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically for mobile */
+    padding: 10px 0; /* Adjust padding for mobile */
+  }
+
+  .logo {
+    margin-bottom: 10px; /* Provide space between logo and other items */
+    text-align: center; /* Center the logo for mobile */
+  }
+
   .logo img {
-    width: 30px; /* Adjust the logo size for smaller screens */
+    width: 70px; /* Larger logo size for mobile */
+    margin-right: 0; /* Remove margin for logo */
   }
 
   .name {
-    font-size: 1em; /* Adjust the font size of the name */
+    font-size: 1.2em; /* Adjust font size */
+  }
+
+  .menu li {
+    margin: 0;
+    margin-bottom: 10px; /* Space between menu items */
+    text-align: center; /* Center menu items */
+  }
+
+  .actions {
+    margin-top: 20px; /* Margin to separate actions from menu */
+    text-align: center; /* Center action items */
+  }
+
+  .actions a {
+    margin: 10px 0; /* Space between action items */
+  }
+
+  .skills-container {
+    flex-direction: column; /* Stack skill boxes for mobile */
+    align-items: center; /* Center skill boxes */
   }
 
   .skill-box {
-    width: calc(50% - 40px); /* Adjust the width of skill boxes */
+    width: 90%; /* Full width for skill boxes */
+    margin: 20px 0; /* Spacing between skill boxes */
+  }
+
+  .skill-box img {
+    width: 80px; /* Adjust image size */
+  }
+
+  .projects-section h2 {
+    margin-top: 20px; /* Space between heading and projects */
   }
 
   .project-item {
-    width: 90%; /* Adjust the width of project items */
+    width: 90%; /* Full width for project items */
+    text-align: center; /* Center project items */
+    margin: 0 auto; /* Center project items */
   }
 
   .project-item .image-section img {
-    width: 80%; /* Adjust the image size within project items */
+    width: 100%; /* Full width for project images */
+    order: 0; /* Display image before details */
+    margin-bottom: 10px; /* Space between image and details */
+  }
+
+  .project-details h3 {
+    margin-bottom: 10px; /* Space between details */
+  }
+
+  .project-details p {
+    margin-bottom: 10px; /* Space between details */
+  }
+
+  .project-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .blue-button,
   .orange-button {
-    padding: 8px 16px; /* Adjust button padding */
+    width: 80%; /* Full width for buttons */
+    margin: 10px 0; /* Space between buttons */
+  }
+
+  .site-footer {
+    padding: 20px 0; /* Adjust footer padding */
+  }
+
+  .logo-section img {
+    width: 100px; /* Larger logo size for mobile footer */
+  }
+
+  .connect-text {
+    font-size: 20px; /* Adjust font size for 'Let's Connect' */
+    margin-bottom: 20px; /* Space between 'Let's Connect' and icons */
   }
 
   .icon-links {
@@ -342,17 +417,17 @@ body {
   }
 
   .icon-links a img {
-    width: 30px; /* Adjust icon size */
+    width: 40px; /* Adjust icon size */
     display: block;
     margin: 0 auto;
   }
 
   .icon-links p {
     margin: 5px 0; /* Adjust margin for text */
-    font-size: 12px; /* Adjust text size */
+    font-size: 14px; /* Adjust text size */
   }
 
   .footer-bottom {
-    margin-top: 10px; /* Adjust margin */
+    margin-top: 20px; /* Adjust margin */
   }
 }
