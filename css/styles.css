@@ -300,3 +300,59 @@ body {
 .footer-bottom {
   margin-top: 20px;
 }
+/* Your existing CSS */
+
+/* Media Query for screens with a maximum width of 600 pixels */
+@media only screen and (max-width: 600px) {
+  .logo img {
+    width: 30px; /* Adjust the logo size for smaller screens */
+  }
+
+  .name {
+    font-size: 1em; /* Adjust the font size of the name */
+  }
+
+  .skill-box {
+    width: calc(50% - 40px); /* Adjust the width of skill boxes */
+  }
+
+  .project-item {
+    width: 90%; /* Adjust the width of project items */
+  }
+
+  .project-item .image-section img {
+    width: 80%; /* Adjust the image size within project items */
+  }
+
+  .blue-button,
+  .orange-button {
+    padding: 8px 16px; /* Adjust button padding */
+  }
+
+  .icon-links {
+    flex-direction: column; /* Align icons and texts in a column */
+    align-items: center; /* Center items */
+    margin: 20px 0; /* Adjust margin between items */
+  }
+
+  .icon-links a {
+    margin: 10px 0; /* Adjust margin for individual items */
+    text-decoration: none;
+    color: black;
+  }
+
+  .icon-links a img {
+    width: 30px; /* Adjust icon size */
+    display: block;
+    margin: 0 auto;
+  }
+
+  .icon-links p {
+    margin: 5px 0; /* Adjust margin for text */
+    font-size: 12px; /* Adjust text size */
+  }
+
+  .footer-bottom {
+    margin-top: 10px; /* Adjust margin */
+  }
+}
