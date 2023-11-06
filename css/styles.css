@@ -343,16 +343,21 @@ body {
 }
 
 .projects-section {
-  text-align: center; /* Center the project section */
+  text-align: center; /* Center the projects section */
+}
+
+.project-container {
+  align-items: center;
 }
 
 .project-item {
-  width: 70%; /* Full width for project items */
-  margin: 20px 0; /* Margin to separate project items */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .project-item .image-section img {
-  width: 100%; /* Adjusted image width for the project items */
+  width: 100%; /* Adjust image width for the project items */
   order: 1;
   margin-bottom: 10px; /* Spacing between image and details */
 }
@@ -361,7 +366,6 @@ body {
   width: 90%;
   text-align: center; /* Center the project details */
 }
-
 
   .project-buttons {
     display: flex;
