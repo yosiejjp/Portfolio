@@ -142,11 +142,11 @@ body {
   text-align: center;
   margin-bottom: 20px;
   box-sizing: border-box;
-  margin: 0 30px; /* Added margin for the sides */
+  margin: 0 30px; 
 }
 
 .skill-box img {
-  max-width: 100px; /* Adjusted image size */
+  max-width: 100px; 
   display: block;
   margin: 0 auto;
 }
@@ -191,7 +191,7 @@ body {
 }
 
 .project-item .image-section img {
-  width: 300px; /* Increased image size */
+  width: 300px; 
   order: -1;
 }
 
@@ -253,7 +253,7 @@ body {
   margin: 0 auto; 
 }
 
-/* Style for the footer */
+
 .site-footer {
   background-color: white;
   color: black;
@@ -261,19 +261,19 @@ body {
   padding: 20px 0;
 }
 
-/* Logo styling */
+
 .logo-section {
   text-align: center;
 }
 
-/* Connect text styling */
+
 .connect-text {
   margin: 10px 0;
   font-size: 24px;
   font-weight: bold;
 }
 
-/* Align and style icons and text */
+
 .icon-links {
   display: flex;
   justify-content: center;
@@ -301,10 +301,6 @@ body {
 .footer-bottom {
   margin-top: 20px;
 }
-/* Your existing CSS */
-
-/* Media Query for screens with a maximum width of 600 pixels */
-/* Your existing CSS */
 
 /* Media Query for screens with a maximum width of 600 pixels */
 @media only screen and (max-width: 428px) {
@@ -325,12 +321,12 @@ body {
 
   .skills-container {
     display: flex;
-    flex-direction: column; /* Stacking skill boxes vertically */
+    flex-direction: column; /
     align-items: center;
   }
 
   .skill-box {
-    width: 90%; /* Full width for skill boxes */
+    width: 90%; 
     text-align: center;
     margin: 20px auto; 
   }
@@ -375,31 +371,30 @@ body {
 
   .blue-button,
   .orange-button {
-    width: 50%; /* Full width for buttons */
-    margin: 10px 0; /* Space between buttons */
+    width: 50%; 
+    margin: 10px 0; 
   }
 
   .site-footer {
-    padding: 20px 0; /* Adjust footer padding */
+    padding: 20px 0; 
   }
 
   .logo-section img {
-    width: 60px; /* Larger logo size for mobile footer */
+    width: 60px; 
   }
 
   .connect-text {
-    font-size: 20px; /* Adjust font size for 'Let's Connect' */
-    margin-bottom: 20px; /* Space between 'Let's Connect' and icons */
+    font-size: 20px;
+    margin-bottom: 20px; 
   }
 
   .icon-links {
-    display: flex; /* Set icons and text to display side by side */
-    justify-content: space-around; /* Adjust spacing between icons and text */
-    align-items: center; /* Center items */
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
     margin: 20px 0;
   }
 
-  .icon-links a {
     .icon-links a {
       text-decoration: none;
       color: black;
@@ -410,18 +405,18 @@ body {
   }
 
   .icon-links a img {
-    width: 20px; /* Adjust icon size */
+    width: 20px; 
     display: block;
     margin: 0 auto;
   }
 
   .icon-links p {
-    margin: 5px 0; /* Adjust margin for text */
-    font-size: 14px; /* Adjust text size */
+    margin: 5px 0; 
+    font-size: 14px; 
   }
 
   .footer-bottom {
-    margin-top: 20px; /* Adjust margin */
+    margin-top: 20px; 
   }
 
   @media only screen and (max-width: 600px) {
