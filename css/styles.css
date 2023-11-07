@@ -350,19 +350,20 @@ body {
 }
 
 .project-item {
+  flex-direction: column;
   width: 70%; 
   margin: 20px 0; 
 }
 
 .project-item .image-section img {
-  width: 100%; /* Adjusted image width for the project items */
+  width: 100%; 
   order: 1;
-  margin-bottom: 10px; /* Spacing between image and details */
+  margin-bottom: 10px; 
 }
 
 .project-details {
   width: 90%;
-  text-align: center; /* Center the project details */
+  text-align: center; 
 }
 
 
